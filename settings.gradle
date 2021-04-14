@@ -1,0 +1,2 @@
+include ':fiscalservicesdk'
+rootProject.name = "FiscalServiceSdk"
