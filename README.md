@@ -47,7 +47,7 @@ String response =  FiscalService.getInstance().exchangeCommand(jsonCommand, time
 //response is a json formatted String, containing a the Fiscal Command execution response, according to the N5Fiscal Communication Protocol description.
 ```
 
-###[Fiscal Command Request Example]
+### Fiscal Command Request Example
 
 The following Fiscal Command Request Object shows how to request sale registration and fiscal ticket printing on myPOS N5Fiscal device:
 
