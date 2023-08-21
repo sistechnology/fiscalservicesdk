@@ -62,7 +62,7 @@ public class FiscalService {
 
         Intent intent = new Intent(SERVICE_ACTION);
         intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-        intent.setPackage("com.sistechnology.pos.auroraposmobile");
+        intent.setPackage("com.sistechnology.androidfiscalservice");
 
         context.bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
     }
